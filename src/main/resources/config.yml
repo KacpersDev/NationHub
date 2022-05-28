@@ -1,0 +1,73 @@
+lines-normal:
+  - "&7&m--------------------------------"
+  - "&4Online&7:"
+  - "%online%"
+  - ""
+  - "&4Rank&7:"
+  - "%rank%"
+  - ""
+  - "&7store.nationhcf.club"
+  - "&7&m--------------------------------"
+
+spawn:
+  x: -12
+  y: 137
+  z: 0
+
+items:
+  selector:
+    item: "WATCH"
+    name: "&7* &6Server Selector &7*"
+    lore:
+      - "&7&m----------------------------------------"
+      - "&7Right click to select server to go to "
+      - "&7&m----------------------------------------"
+    slot: 4
+  enderbutt:
+    item: "ENDER_PEARL"
+    name: "&7* &bEnderButt &7*"
+    lore:
+      - "&7&m----------------------------------------"
+      - "&7Right click to fly "
+      - "&7&m----------------------------------------"
+    slot: 0
+  cosmetics:
+    item: "FEATHER"
+    name: "&7* &eEnderButt &7*"
+    lore:
+      - "&7&m----------------------------------------"
+      - "&7Right click to change "
+      - "&7&m----------------------------------------"
+    slot: 8
+
+selector:
+  title: "&7Server Inventory"
+  size: 18
+  items:
+    1:
+      item: "DIAMOND_SWORD"
+      name: "&6&lBlaze &7(Click)"
+      lore:
+        - "&f&m-------------------------------"
+        - "&7Create a team, invite a friends"
+        - "&7and compete with other factions"
+        - ""
+        - "&a&lSOTW&7: &fEvery SATURDAY @ 3PM EST"
+        - "&4&lEOTW&7: &fEvery FRIDAY @ 5 PM EST"
+        - "&f&m-------------------------------"
+      slot: 4
+      action: "play blaze"
+
+join:
+  message:
+    - "&7&m--------------------------------------"
+    - "&c&l                NATION"
+    - "&7&o                play.nationhcf.club"
+    - ""
+    - "&c  Our Website&7: &fhttps://nationhcf.club/"
+    - "&c  Our Store&7: &fhttps://store.nationhcf.club/"
+    - "&c  Our Twitter&7: &fhttps://twitter.com/nationhcf"
+    - "&c  Our Discord&7: &fhttps://discord.nationhcf.club/"
+    - "&7&m--------------------------------------"
+
+chat-format: "%prefix% %player%&7: &f%message%"

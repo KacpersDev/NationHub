@@ -1,0 +1,6 @@
+name: Hub
+version: '${project.version}'
+main: club.nationhcf.Hub
+api-version: 1.18
+depend:
+  - Vault
